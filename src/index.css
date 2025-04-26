@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+h1 {
+  @apply text-4xl font-bold ;
+}
+h2 {
+  @apply text-2xl font-bold ;
+}
+
+button {
+  @apply cursor-pointer text-white border p-3 rounded-md text-center h-12 min-w-32  hover:bg-white hover:text-black font-bold w-full bg-black rounded capitalize; 
+}
